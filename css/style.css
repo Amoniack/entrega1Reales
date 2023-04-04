@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #660033;
+}
+.titulo{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: gray;
+    height: 70px;
+    width: auto;
+    margin: 10px;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    background-color: gray;
+    margin: 10px;
+}
+.instrumentos{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 10px
+}
+.instrumentos .guitarra :hover{
+    
+    transition: transform 0.3s ease;
+    transform: scale(0.95);
+}
+.instrumentos .bajo :hover{
+    transition: transform 0.3s ease;
+    transform: scale(0.95);
+}
+.instrumentos .bateria :hover{
+    transition: transform 0.3s ease;
+    transform: scale(0.95);
+}
