@@ -1,2 +1,2 @@
 # entrega1Reales
-primera entrega reales
+segunda pre-entrega reales
